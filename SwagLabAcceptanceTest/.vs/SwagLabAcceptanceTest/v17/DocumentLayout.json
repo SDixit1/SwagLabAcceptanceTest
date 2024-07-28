@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\AcceptanceTests\\SwagLabAcceptanceTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{18F4B8D0-9AAA-4FDE-ACA8-D43D0988E6F1}|SwagLabAcceptanceTest.csproj|c:\\acceptancetests\\swaglabacceptancetest\\features\\navigation.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{18F4B8D0-9AAA-4FDE-ACA8-D43D0988E6F1}|SwagLabAcceptanceTest.csproj|solutionrelative:features\\navigation.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18F4B8D0-9AAA-4FDE-ACA8-D43D0988E6F1}|SwagLabAcceptanceTest.csproj|c:\\acceptancetests\\swaglabacceptancetest\\features\\inventory.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{18F4B8D0-9AAA-4FDE-ACA8-D43D0988E6F1}|SwagLabAcceptanceTest.csproj|solutionrelative:features\\inventory.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18F4B8D0-9AAA-4FDE-ACA8-D43D0988E6F1}|SwagLabAcceptanceTest.csproj|c:\\acceptancetests\\swaglabacceptancetest\\stepdefinitions\\inventorystepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18F4B8D0-9AAA-4FDE-ACA8-D43D0988E6F1}|SwagLabAcceptanceTest.csproj|solutionrelative:stepdefinitions\\inventorystepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18F4B8D0-9AAA-4FDE-ACA8-D43D0988E6F1}|SwagLabAcceptanceTest.csproj|c:\\acceptancetests\\swaglabacceptancetest\\pages\\inventorypage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18F4B8D0-9AAA-4FDE-ACA8-D43D0988E6F1}|SwagLabAcceptanceTest.csproj|solutionrelative:pages\\inventorypage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18F4B8D0-9AAA-4FDE-ACA8-D43D0988E6F1}|SwagLabAcceptanceTest.csproj|c:\\acceptancetests\\swaglabacceptancetest\\stepdefinitions\\navigationstepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18F4B8D0-9AAA-4FDE-ACA8-D43D0988E6F1}|SwagLabAcceptanceTest.csproj|solutionrelative:stepdefinitions\\navigationstepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 84,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NavigationStepDefinitions.cs",
+              "DocumentMoniker": "C:\\AcceptanceTests\\SwagLabAcceptanceTest\\StepDefinitions\\NavigationStepDefinitions.cs",
+              "RelativeDocumentMoniker": "StepDefinitions\\NavigationStepDefinitions.cs",
+              "ToolTip": "C:\\AcceptanceTests\\SwagLabAcceptanceTest\\StepDefinitions\\NavigationStepDefinitions.cs",
+              "RelativeToolTip": "StepDefinitions\\NavigationStepDefinitions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T15:48:53.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Navigation.feature",
+              "DocumentMoniker": "C:\\AcceptanceTests\\SwagLabAcceptanceTest\\Features\\Navigation.feature",
+              "RelativeDocumentMoniker": "Features\\Navigation.feature",
+              "ToolTip": "C:\\AcceptanceTests\\SwagLabAcceptanceTest\\Features\\Navigation.feature",
+              "RelativeToolTip": "Features\\Navigation.feature",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-28T15:43:10.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InventoryPage.cs",
+              "DocumentMoniker": "C:\\AcceptanceTests\\SwagLabAcceptanceTest\\Pages\\InventoryPage.cs",
+              "RelativeDocumentMoniker": "Pages\\InventoryPage.cs",
+              "ToolTip": "C:\\AcceptanceTests\\SwagLabAcceptanceTest\\Pages\\InventoryPage.cs",
+              "RelativeToolTip": "Pages\\InventoryPage.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T15:52:06.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InventoryStepDefinitions.cs",
+              "DocumentMoniker": "C:\\AcceptanceTests\\SwagLabAcceptanceTest\\StepDefinitions\\InventoryStepDefinitions.cs",
+              "RelativeDocumentMoniker": "StepDefinitions\\InventoryStepDefinitions.cs",
+              "ToolTip": "C:\\AcceptanceTests\\SwagLabAcceptanceTest\\StepDefinitions\\InventoryStepDefinitions.cs",
+              "RelativeToolTip": "StepDefinitions\\InventoryStepDefinitions.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAAAEAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T15:49:13.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Inventory.feature",
+              "DocumentMoniker": "C:\\AcceptanceTests\\SwagLabAcceptanceTest\\Features\\Inventory.feature",
+              "RelativeDocumentMoniker": "Features\\Inventory.feature",
+              "ToolTip": "C:\\AcceptanceTests\\SwagLabAcceptanceTest\\Features\\Inventory.feature",
+              "RelativeToolTip": "Features\\Inventory.feature",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAACUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-28T15:40:37.47Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 99,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{519e8a32-1c95-4a42-956f-2cee2f28eb0f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 154,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 96,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

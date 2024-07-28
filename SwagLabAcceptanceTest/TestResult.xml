@@ -1,0 +1,365 @@
+<test-run id="2" duration="79.86106889999999" testcasecount="18" total="18" passed="18" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2024-07-27T 19:44:55Z" end-time="2024-07-27T 19:46:16Z">
+  <test-suite type="Assembly" name="SwagLabAcceptanceTest.dll" fullname="C:\AcceptanceTests\SwagLabAcceptanceTest\bin\Debug\net6.0\SwagLabAcceptanceTest.dll" total="18" passed="18" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2024-07-27T 19:44:56Z" end-time="2024-07-27T 19:46:16Z" duration="79.8610689">
+    <test-suite type="TestSuite" name="SwagLabAcceptanceTest" fullname="SwagLabAcceptanceTest" total="18" passed="18" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2024-07-27T 19:44:56Z" end-time="2024-07-27T 19:46:16Z" duration="79.8610689">
+      <test-suite type="TestSuite" name="Features" fullname="SwagLabAcceptanceTest.Features" total="18" passed="18" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2024-07-27T 19:44:56Z" end-time="2024-07-27T 19:46:16Z" duration="79.8610689">
+        <test-suite type="TestFixture" name="LoginIWantToLoginSoThatICanAccessTheInventoryPageFeature" fullname="SwagLabAcceptanceTest.Features.LoginIWantToLoginSoThatICanAccessTheInventoryPageFeature" classname="SwagLabAcceptanceTest.Features.LoginIWantToLoginSoThatICanAccessTheInventoryPageFeature" total="5" passed="5" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2024-07-27T 19:44:56Z" end-time="2024-07-27T 19:45:18Z" duration="21.8004549">
+          <test-case name="SuccessfulLoginWithValidCredentials(&quot;standard_user&quot;,&quot;secret_sauce&quot;,null)" fullname="SwagLabAcceptanceTest.Features.LoginIWantToLoginSoThatICanAccessTheInventoryPageFeature.SuccessfulLoginWithValidCredentials(&quot;standard_user&quot;,&quot;secret_sauce&quot;,null)" methodname="SuccessfulLoginWithValidCredentials(&quot;standard_user&quot;,&quot;secret_sauce&quot;,null)" classname="LoginIWantToLoginSoThatICanAccessTheInventoryPageFeature" result="Passed" start-time="2024-07-27T 19:44:56Z" end-time="2024-07-27T 19:45:00Z" duration="3.597271" asserts="0" seed="1985931790">
+            <output><![CDATA[Given I am on the SauceDemo login page
+-> done: LoginStepDefinitions.GivenIAmOnTheSauceDemoLoginPage() (0.9s)
+When I enter valid standard_user and secret_sauce
+-> done: LoginStepDefinitions.WhenIEnterValidUsernameAndPassword("standard_user", "secret_sauce") (0.2s)
+And I click the login button
+-> done: LoginStepDefinitions.WhenIClickTheLoginButton() (0.1s)
+Then I should see the inventory page
+-> done: LoginStepDefinitions.ThenIShouldSeeTheInventoryPage("inventory") (0.0s)
+
+]]></output>
+          </test-case>
+          <test-case name="SuccessfulLoginWithValidCredentials(&quot;problem_user&quot;,&quot;secret_sauce&quot;,null)" fullname="SwagLabAcceptanceTest.Features.LoginIWantToLoginSoThatICanAccessTheInventoryPageFeature.SuccessfulLoginWithValidCredentials(&quot;problem_user&quot;,&quot;secret_sauce&quot;,null)" methodname="SuccessfulLoginWithValidCredentials(&quot;problem_user&quot;,&quot;secret_sauce&quot;,null)" classname="LoginIWantToLoginSoThatICanAccessTheInventoryPageFeature" result="Passed" start-time="2024-07-27T 19:45:00Z" end-time="2024-07-27T 19:45:03Z" duration="3.3272179" asserts="0" seed="1790482280">
+            <output><![CDATA[Given I am on the SauceDemo login page
+-> done: LoginStepDefinitions.GivenIAmOnTheSauceDemoLoginPage() (0.8s)
+When I enter valid problem_user and secret_sauce
+-> done: LoginStepDefinitions.WhenIEnterValidUsernameAndPassword("problem_user", "secret_sauce") (0.2s)
+And I click the login button
+-> done: LoginStepDefinitions.WhenIClickTheLoginButton() (0.1s)
+Then I should see the inventory page
+-> done: LoginStepDefinitions.ThenIShouldSeeTheInventoryPage("inventory") (0.0s)
+
+]]></output>
+          </test-case>
+          <test-case name="SuccessfulLoginWithValidCredentials(&quot;performance_glitch_user&quot;,&quot;secret_sauce&quot;,null)" fullname="SwagLabAcceptanceTest.Features.LoginIWantToLoginSoThatICanAccessTheInventoryPageFeature.SuccessfulLoginWithValidCredentials(&quot;performance_glitch_user&quot;,&quot;secret_sauce&quot;,null)" methodname="SuccessfulLoginWithValidCredentials(&quot;performance_glitch_user&quot;,&quot;secret_sauce&quot;,null)" classname="LoginIWantToLoginSoThatICanAccessTheInventoryPageFeature" result="Passed" start-time="2024-07-27T 19:45:03Z" end-time="2024-07-27T 19:45:12Z" duration="8.520707" asserts="0" seed="606125049">
+            <output><![CDATA[Given I am on the SauceDemo login page
+-> done: LoginStepDefinitions.GivenIAmOnTheSauceDemoLoginPage() (0.8s)
+When I enter valid performance_glitch_user and secret_sauce
+-> done: LoginStepDefinitions.WhenIEnterValidUsernameAndPassword("performance_glitc...", "secret_sauce") (0.2s)
+And I click the login button
+-> done: LoginStepDefinitions.WhenIClickTheLoginButton() (5.1s)
+Then I should see the inventory page
+-> done: LoginStepDefinitions.ThenIShouldSeeTheInventoryPage("inventory") (0.0s)
+
+]]></output>
+          </test-case>
+          <test-case name="SuccessfulLoginWithValidCredentials(&quot;error_user&quot;,&quot;secret_sauce&quot;,null)" fullname="SwagLabAcceptanceTest.Features.LoginIWantToLoginSoThatICanAccessTheInventoryPageFeature.SuccessfulLoginWithValidCredentials(&quot;error_user&quot;,&quot;secret_sauce&quot;,null)" methodname="SuccessfulLoginWithValidCredentials(&quot;error_user&quot;,&quot;secret_sauce&quot;,null)" classname="LoginIWantToLoginSoThatICanAccessTheInventoryPageFeature" result="Passed" start-time="2024-07-27T 19:45:12Z" end-time="2024-07-27T 19:45:15Z" duration="3.142446" asserts="0" seed="1778802705">
+            <output><![CDATA[Given I am on the SauceDemo login page
+-> done: LoginStepDefinitions.GivenIAmOnTheSauceDemoLoginPage() (0.8s)
+When I enter valid error_user and secret_sauce
+-> done: LoginStepDefinitions.WhenIEnterValidUsernameAndPassword("error_user", "secret_sauce") (0.2s)
+And I click the login button
+-> done: LoginStepDefinitions.WhenIClickTheLoginButton() (0.1s)
+Then I should see the inventory page
+-> done: LoginStepDefinitions.ThenIShouldSeeTheInventoryPage("inventory") (0.0s)
+
+]]></output>
+          </test-case>
+          <test-case name="SuccessfulLoginWithValidCredentials(&quot;visual_user&quot;,&quot;secret_sauce&quot;,null)" fullname="SwagLabAcceptanceTest.Features.LoginIWantToLoginSoThatICanAccessTheInventoryPageFeature.SuccessfulLoginWithValidCredentials(&quot;visual_user&quot;,&quot;secret_sauce&quot;,null)" methodname="SuccessfulLoginWithValidCredentials(&quot;visual_user&quot;,&quot;secret_sauce&quot;,null)" classname="LoginIWantToLoginSoThatICanAccessTheInventoryPageFeature" result="Passed" start-time="2024-07-27T 19:45:15Z" end-time="2024-07-27T 19:45:18Z" duration="3.212813" asserts="0" seed="1644746770">
+            <output><![CDATA[Given I am on the SauceDemo login page
+-> done: LoginStepDefinitions.GivenIAmOnTheSauceDemoLoginPage() (0.8s)
+When I enter valid visual_user and secret_sauce
+-> done: LoginStepDefinitions.WhenIEnterValidUsernameAndPassword("visual_user", "secret_sauce") (0.2s)
+And I click the login button
+-> done: LoginStepDefinitions.WhenIClickTheLoginButton() (0.1s)
+Then I should see the inventory page
+-> done: LoginStepDefinitions.ThenIShouldSeeTheInventoryPage("inventory") (0.0s)
+
+]]></output>
+          </test-case>
+        </test-suite>
+        <test-suite type="TestFixture" name="VerifyCheckoutPageFunctionalityFeature" fullname="SwagLabAcceptanceTest.Features.VerifyCheckoutPageFunctionalityFeature" classname="SwagLabAcceptanceTest.Features.VerifyCheckoutPageFunctionalityFeature" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2024-07-27T 19:45:18Z" end-time="2024-07-27T 19:45:23Z" duration="5.265967">
+          <test-case name="_03VerifyBackAndForthScenario" fullname="SwagLabAcceptanceTest.Features.VerifyCheckoutPageFunctionalityFeature._03VerifyBackAndForthScenario" methodname="_03VerifyBackAndForthScenario" classname="VerifyCheckoutPageFunctionalityFeature" result="Passed" start-time="2024-07-27T 19:45:18Z" end-time="2024-07-27T 19:45:23Z" duration="5.265967" asserts="0" seed="1588125628">
+            <output><![CDATA[Given I am on the SauceDemo login page
+-> done: LoginStepDefinitions.GivenIAmOnTheSauceDemoLoginPage() (0.8s)
+And I enter valid 'standard_user' and 'secret_sauce'
+-> done: LoginStepDefinitions.WhenIEnterValidUsernameAndPassword("standard_user", "secret_sauce") (0.2s)
+And I click the login button
+-> done: LoginStepDefinitions.WhenIClickTheLoginButton() (0.1s)
+And I land on Inventory Page
+-> done: LoginStepDefinitions.ThenIShouldSeeTheInventoryPage("Inventory") (0.0s)
+And I add the following items to the shopping cart
+  --- table step argument ---
+  | itemName                |
+  | Sauce Labs Backpack     |
+  | Sauce Labs Bike Light   |
+  | Sauce Labs Bolt T-Shirt |
+  | Sauce Labs Onesie       |
+-> done: InventoryStepDefinitions.WhenIAddTheFollowingItemsToTheShoppingCart(<table>) (0.2s)
+And I click on cart link
+-> done: CartStepDefinitions.WhenIClickOnCartLink() (0.1s)
+And I land on cart Page
+-> done: LoginStepDefinitions.ThenIShouldSeeTheInventoryPage("cart") (0.0s)
+And I procced to checkout
+-> done: CartStepDefinitions.WhenIClickOnCheckoutButton() (0.1s)
+And I enter my information
+-> done: CheckoutStepDefinition.WhenIEnterMyInformation() (0.2s)
+And I review my order
+  --- table step argument ---
+  | itemName                |
+  | Sauce Labs Backpack     |
+  | Sauce Labs Bike Light   |
+  | Sauce Labs Bolt T-Shirt |
+  | Sauce Labs Onesie       |
+-> done: CheckoutStepDefinition.WhenIReviewMyOrder(<table>) (0.1s)
+And I verify price and shipping Information
+-> done: CheckoutStepDefinition.GivenIVerifyPriceAndShippingInformation() (0.2s)
+When I finish the checkout
+-> done: CheckoutStepDefinition.WhenIFinishTheCheckout() (0.1s)
+Then I should see the checkout-complete page
+-> done: LoginStepDefinitions.ThenIShouldSeeTheInventoryPage("checkout-complete") (0.0s)
+And I verify order confimation message
+-> done: CheckoutStepDefinition.ThenIVerifyOrderConfimationMessage() (0.1s)
+When I click on backhome button
+-> done: CheckoutStepDefinition.WhenIClickOnBackhomeButton() (0.1s)
+Then I land on Inventory Page
+-> done: LoginStepDefinitions.ThenIShouldSeeTheInventoryPage("Inventory") (0.0s)
+
+]]></output>
+          </test-case>
+        </test-suite>
+        <test-suite type="TestFixture" name="VerifyingCartPageFunctionalityFeature" fullname="SwagLabAcceptanceTest.Features.VerifyingCartPageFunctionalityFeature" classname="SwagLabAcceptanceTest.Features.VerifyingCartPageFunctionalityFeature" total="3" passed="3" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2024-07-27T 19:45:23Z" end-time="2024-07-27T 19:45:35Z" duration="11.690582">
+          <test-case name="_01AddItemsToShoppingCart" fullname="SwagLabAcceptanceTest.Features.VerifyingCartPageFunctionalityFeature._01AddItemsToShoppingCart" methodname="_01AddItemsToShoppingCart" classname="VerifyingCartPageFunctionalityFeature" result="Passed" start-time="2024-07-27T 19:45:23Z" end-time="2024-07-27T 19:45:27Z" duration="3.682471" asserts="0" seed="1482412773">
+            <output><![CDATA[Given I am on the SauceDemo login page
+-> done: LoginStepDefinitions.GivenIAmOnTheSauceDemoLoginPage() (0.8s)
+And I enter valid 'standard_user' and 'secret_sauce'
+-> done: LoginStepDefinitions.WhenIEnterValidUsernameAndPassword("standard_user", "secret_sauce") (0.1s)
+And I click the login button
+-> done: LoginStepDefinitions.WhenIClickTheLoginButton() (0.1s)
+And I land on Inventory Page
+-> done: LoginStepDefinitions.ThenIShouldSeeTheInventoryPage("Inventory") (0.0s)
+And I add the following items to the shopping cart
+  --- table step argument ---
+  | itemName              |
+  | Sauce Labs Backpack   |
+  | Sauce Labs Bike Light |
+-> done: InventoryStepDefinitions.WhenIAddTheFollowingItemsToTheShoppingCart(<table>) (0.1s)
+And the shopping cart badge should show "2"
+-> done: CartStepDefinitions.ThenTheShoppingCartBadgeShouldShow(2) (0.0s)
+When I click on cart link
+-> done: CartStepDefinitions.WhenIClickOnCartLink() (0.1s)
+Then the following items should be in the cart
+  --- table step argument ---
+  | itemName              |
+  | Sauce Labs Backpack   |
+  | Sauce Labs Bike Light |
+-> done: CartStepDefinitions.ThenTheFollowingItemShouldBeInTheCart(<table>) (0.0s)
+
+]]></output>
+          </test-case>
+          <test-case name="_02RemoveItemsToShoppingCart(&quot;Sauce Labs Backpack&quot;,null)" fullname="SwagLabAcceptanceTest.Features.VerifyingCartPageFunctionalityFeature._02RemoveItemsToShoppingCart(&quot;Sauce Labs Backpack&quot;,null)" methodname="_02RemoveItemsToShoppingCart(&quot;Sauce Labs Backpack&quot;,null)" classname="VerifyingCartPageFunctionalityFeature" result="Passed" start-time="2024-07-27T 19:45:27Z" end-time="2024-07-27T 19:45:31Z" duration="3.644308" asserts="0" seed="353731339">
+            <output><![CDATA[Given I am on the SauceDemo login page
+-> done: LoginStepDefinitions.GivenIAmOnTheSauceDemoLoginPage() (0.8s)
+And I enter valid 'standard_user' and 'secret_sauce'
+-> done: LoginStepDefinitions.WhenIEnterValidUsernameAndPassword("standard_user", "secret_sauce") (0.2s)
+And I click the login button
+-> done: LoginStepDefinitions.WhenIClickTheLoginButton() (0.1s)
+And I land on Inventory Page
+-> done: LoginStepDefinitions.ThenIShouldSeeTheInventoryPage("Inventory") (0.0s)
+And I add the following items to the shopping cart
+  --- table step argument ---
+  | itemName              |
+  | Sauce Labs Backpack   |
+  | Sauce Labs Bike Light |
+-> done: InventoryStepDefinitions.WhenIAddTheFollowingItemsToTheShoppingCart(<table>) (0.1s)
+And I click on cart link
+-> done: CartStepDefinitions.WhenIClickOnCartLink() (0.0s)
+When I  remove Sauce Labs Backpack from the cart
+-> done: CartStepDefinitions.WhenIRemoveStaSauceLabsBackpackFromTheCart("Sauce Labs Backpack ") (0.1s)
+Then cart is has "1"  item
+-> done: CartStepDefinitions.ThenCartIsHasItem("1") (0.0s)
+
+]]></output>
+          </test-case>
+          <test-case name="_03VerifyBackAndForthScenario" fullname="SwagLabAcceptanceTest.Features.VerifyingCartPageFunctionalityFeature._03VerifyBackAndForthScenario" methodname="_03VerifyBackAndForthScenario" classname="VerifyingCartPageFunctionalityFeature" result="Passed" start-time="2024-07-27T 19:45:31Z" end-time="2024-07-27T 19:45:35Z" duration="4.363803" asserts="0" seed="1887328904">
+            <output><![CDATA[Given I am on the SauceDemo login page
+-> done: LoginStepDefinitions.GivenIAmOnTheSauceDemoLoginPage() (0.8s)
+And I enter valid 'standard_user' and 'secret_sauce'
+-> done: LoginStepDefinitions.WhenIEnterValidUsernameAndPassword("standard_user", "secret_sauce") (0.2s)
+And I click the login button
+-> done: LoginStepDefinitions.WhenIClickTheLoginButton() (0.1s)
+And I land on Inventory Page
+-> done: LoginStepDefinitions.ThenIShouldSeeTheInventoryPage("Inventory") (0.0s)
+And I add the following items to the shopping cart
+  --- table step argument ---
+  | itemName                |
+  | Sauce Labs Backpack     |
+  | Sauce Labs Bike Light   |
+  | Sauce Labs Bolt T-Shirt |
+  | Sauce Labs Onesie       |
+-> done: InventoryStepDefinitions.WhenIAddTheFollowingItemsToTheShoppingCart(<table>) (0.2s)
+And I click on cart link
+-> done: CartStepDefinitions.WhenIClickOnCartLink() (0.0s)
+When I click on Continue Shipping button
+-> done: CartStepDefinitions.WhenIClickOnContinueShippingButton() (0.0s)
+Then I land on Inventory Page
+-> done: LoginStepDefinitions.ThenIShouldSeeTheInventoryPage("Inventory") (0.0s)
+When I click on cart link
+-> done: CartStepDefinitions.WhenIClickOnCartLink() (0.0s)
+Then I land on cart Page
+-> done: LoginStepDefinitions.ThenIShouldSeeTheInventoryPage("cart") (0.0s)
+When I click on checkout button
+-> done: CartStepDefinitions.WhenIClickOnCheckoutButton() (0.0s)
+Then I land on checkout-step-one Page
+-> done: LoginStepDefinitions.ThenIShouldSeeTheInventoryPage("checkout-step-one") (0.0s)
+
+]]></output>
+          </test-case>
+        </test-suite>
+        <test-suite type="TestFixture" name="VerifyingInventorypageFunctionalityFeature" fullname="SwagLabAcceptanceTest.Features.VerifyingInventorypageFunctionalityFeature" classname="SwagLabAcceptanceTest.Features.VerifyingInventorypageFunctionalityFeature" total="9" passed="9" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2024-07-27T 19:45:35Z" end-time="2024-07-27T 19:46:16Z" duration="41.104065">
+          <test-case name="_01VerifyBasketItemCountIsUpdatedWhenItemIsAddedAndRemoved(&quot;Sauce Labs Fleece Jacket&quot;,null)" fullname="SwagLabAcceptanceTest.Features.VerifyingInventorypageFunctionalityFeature._01VerifyBasketItemCountIsUpdatedWhenItemIsAddedAndRemoved(&quot;Sauce Labs Fleece Jacket&quot;,null)" methodname="_01VerifyBasketItemCountIsUpdatedWhenItemIsAddedAndRemoved(&quot;Sauce Labs Fleece Jacket&quot;,null)" classname="VerifyingInventorypageFunctionalityFeature" result="Passed" start-time="2024-07-27T 19:45:35Z" end-time="2024-07-27T 19:45:38Z" duration="3.603071" asserts="0" seed="271937302">
+            <output><![CDATA[Given I am on the SauceDemo login page
+-> done: LoginStepDefinitions.GivenIAmOnTheSauceDemoLoginPage() (0.7s)
+And I enter valid 'standard_user' and 'secret_sauce'
+-> done: LoginStepDefinitions.WhenIEnterValidUsernameAndPassword("standard_user", "secret_sauce") (0.2s)
+And I click the login button
+-> done: LoginStepDefinitions.WhenIClickTheLoginButton() (0.1s)
+And I land on Inventory Page
+-> done: LoginStepDefinitions.ThenIShouldSeeTheInventoryPage("Inventory") (0.0s)
+When I add the Sauce Labs Fleece Jacket to the basket
+-> done: InventoryStepDefinitions.WhenIAddTheToTheBasket("Sauce Labs Fleece...") (0.1s)
+Then the item count should be increase in the basket
+-> done: InventoryStepDefinitions.ThenTheShouldNotBeInTheBasket() (0.0s)
+When I remove the "Sauce Labs Fleece Jacket" from the tile
+-> done: InventoryStepDefinitions.WhenIRemoveTheFromTheTile("Sauce Labs Fleece...") (0.1s)
+Then the cart should be empty
+-> done: InventoryStepDefinitions.ThenTheCartShouldBeEmpty() (0.0s)
+
+]]></output>
+          </test-case>
+          <test-case name="_02VerifyBasketItemCountIsUpdatedWhenMultipleItemsAreAddedAndRemoved" fullname="SwagLabAcceptanceTest.Features.VerifyingInventorypageFunctionalityFeature._02VerifyBasketItemCountIsUpdatedWhenMultipleItemsAreAddedAndRemoved" methodname="_02VerifyBasketItemCountIsUpdatedWhenMultipleItemsAreAddedAndRemoved" classname="VerifyingInventorypageFunctionalityFeature" result="Passed" start-time="2024-07-27T 19:45:38Z" end-time="2024-07-27T 19:45:42Z" duration="3.647268" asserts="0" seed="1593121770">
+            <output><![CDATA[Given I am on the SauceDemo login page
+-> done: LoginStepDefinitions.GivenIAmOnTheSauceDemoLoginPage() (0.8s)
+And I enter valid 'standard_user' and 'secret_sauce'
+-> done: LoginStepDefinitions.WhenIEnterValidUsernameAndPassword("standard_user", "secret_sauce") (0.2s)
+And I click the login button
+-> done: LoginStepDefinitions.WhenIClickTheLoginButton() (0.1s)
+And I land on Inventory Page
+-> done: LoginStepDefinitions.ThenIShouldSeeTheInventoryPage("Inventory") (0.0s)
+When I add the following items to the shopping cart
+  --- table step argument ---
+  | itemName              |
+  | Sauce Labs Backpack   |
+  | Sauce Labs Bike Light |
+-> done: InventoryStepDefinitions.WhenIAddTheFollowingItemsToTheShoppingCart(<table>) (0.1s)
+Then the shopping cart badge should show "2"
+-> done: CartStepDefinitions.ThenTheShoppingCartBadgeShouldShow(2) (0.0s)
+When I remove the following items from the tile
+  --- table step argument ---
+  | itemName              |
+  | Sauce Labs Backpack   |
+  | Sauce Labs Bike Light |
+-> done: InventoryStepDefinitions.WhenIRemoveTheFollowingItemsFromTheTile(<table>) (0.1s)
+Then the cart should be empty
+-> done: InventoryStepDefinitions.ThenTheCartShouldBeEmpty() (0.0s)
+
+]]></output>
+          </test-case>
+          <test-case name="_03FilterItemsBasedOnFilterSelection(&quot;Name (A to Z)&quot;,&quot;ascending&quot;,null)" fullname="SwagLabAcceptanceTest.Features.VerifyingInventorypageFunctionalityFeature._03FilterItemsBasedOnFilterSelection(&quot;Name (A to Z)&quot;,&quot;ascending&quot;,null)" methodname="_03FilterItemsBasedOnFilterSelection(&quot;Name (A to Z)&quot;,&quot;ascending&quot;,null)" classname="VerifyingInventorypageFunctionalityFeature" result="Passed" start-time="2024-07-27T 19:45:42Z" end-time="2024-07-27T 19:45:46Z" duration="3.825383" asserts="0" seed="609502033">
+            <output><![CDATA[Given I am on the SauceDemo login page
+-> done: LoginStepDefinitions.GivenIAmOnTheSauceDemoLoginPage() (0.8s)
+And I enter valid 'standard_user' and 'secret_sauce'
+-> done: LoginStepDefinitions.WhenIEnterValidUsernameAndPassword("standard_user", "secret_sauce") (0.2s)
+And I click the login button
+-> done: LoginStepDefinitions.WhenIClickTheLoginButton() (0.1s)
+And I land on Inventory Page
+-> done: LoginStepDefinitions.ThenIShouldSeeTheInventoryPage("Inventory") (0.0s)
+When I select Name (A to Z) from the filter dropdown
+-> done: InventoryStepDefinitions.WhenISelectNameAToZFromTheFilterDropdown("Name (A to Z)") (0.0s)
+Then the items should be sorted by Name (A to Z) in ascending order
+-> done: InventoryStepDefinitions.ThenTheItemsShouldBeSortedByNameInAscendingOrder("Name (A to Z)", "ascending") (0.1s)
+
+]]></output>
+          </test-case>
+          <test-case name="_03FilterItemsBasedOnFilterSelection(&quot;Name (Z to A)&quot;,&quot;decending&quot;,null)" fullname="SwagLabAcceptanceTest.Features.VerifyingInventorypageFunctionalityFeature._03FilterItemsBasedOnFilterSelection(&quot;Name (Z to A)&quot;,&quot;decending&quot;,null)" methodname="_03FilterItemsBasedOnFilterSelection(&quot;Name (Z to A)&quot;,&quot;decending&quot;,null)" classname="VerifyingInventorypageFunctionalityFeature" result="Passed" start-time="2024-07-27T 19:45:46Z" end-time="2024-07-27T 19:45:50Z" duration="3.690649" asserts="0" seed="748739599">
+            <output><![CDATA[Given I am on the SauceDemo login page
+-> done: LoginStepDefinitions.GivenIAmOnTheSauceDemoLoginPage() (1.0s)
+And I enter valid 'standard_user' and 'secret_sauce'
+-> done: LoginStepDefinitions.WhenIEnterValidUsernameAndPassword("standard_user", "secret_sauce") (0.1s)
+And I click the login button
+-> done: LoginStepDefinitions.WhenIClickTheLoginButton() (0.1s)
+And I land on Inventory Page
+-> done: LoginStepDefinitions.ThenIShouldSeeTheInventoryPage("Inventory") (0.0s)
+When I select Name (Z to A) from the filter dropdown
+-> done: InventoryStepDefinitions.WhenISelectNameAToZFromTheFilterDropdown("Name (Z to A)") (0.1s)
+Then the items should be sorted by Name (Z to A) in decending order
+-> done: InventoryStepDefinitions.ThenTheItemsShouldBeSortedByNameInAscendingOrder("Name (Z to A)", "decending") (0.1s)
+
+]]></output>
+          </test-case>
+          <test-case name="_03FilterItemsBasedOnFilterSelection(&quot;Price (low to high)&quot;,&quot;ascending&quot;,null)" fullname="SwagLabAcceptanceTest.Features.VerifyingInventorypageFunctionalityFeature._03FilterItemsBasedOnFilterSelection(&quot;Price (low to high)&quot;,&quot;ascending&quot;,null)" methodname="_03FilterItemsBasedOnFilterSelection(&quot;Price (low to high)&quot;,&quot;ascending&quot;,null)" classname="VerifyingInventorypageFunctionalityFeature" result="Passed" start-time="2024-07-27T 19:45:50Z" end-time="2024-07-27T 19:45:53Z" duration="3.555928" asserts="0" seed="672759745">
+            <output><![CDATA[Given I am on the SauceDemo login page
+-> done: LoginStepDefinitions.GivenIAmOnTheSauceDemoLoginPage() (0.8s)
+And I enter valid 'standard_user' and 'secret_sauce'
+-> done: LoginStepDefinitions.WhenIEnterValidUsernameAndPassword("standard_user", "secret_sauce") (0.1s)
+And I click the login button
+-> done: LoginStepDefinitions.WhenIClickTheLoginButton() (0.1s)
+And I land on Inventory Page
+-> done: LoginStepDefinitions.ThenIShouldSeeTheInventoryPage("Inventory") (0.0s)
+When I select Price (low to high) from the filter dropdown
+-> done: InventoryStepDefinitions.WhenISelectNameAToZFromTheFilterDropdown("Price (low to high)") (0.1s)
+Then the items should be sorted by Price (low to high) in ascending order
+-> done: InventoryStepDefinitions.ThenTheItemsShouldBeSortedByNameInAscendingOrder("Price (low to high)", "ascending") (0.1s)
+
+]]></output>
+          </test-case>
+          <test-case name="_03FilterItemsBasedOnFilterSelection(&quot;Price (high to low)&quot;,&quot;decending&quot;,null)" fullname="SwagLabAcceptanceTest.Features.VerifyingInventorypageFunctionalityFeature._03FilterItemsBasedOnFilterSelection(&quot;Price (high to low)&quot;,&quot;decending&quot;,null)" methodname="_03FilterItemsBasedOnFilterSelection(&quot;Price (high to low)&quot;,&quot;decending&quot;,null)" classname="VerifyingInventorypageFunctionalityFeature" result="Passed" start-time="2024-07-27T 19:45:53Z" end-time="2024-07-27T 19:45:57Z" duration="3.80004" asserts="0" seed="1480157614">
+            <output><![CDATA[Given I am on the SauceDemo login page
+-> done: LoginStepDefinitions.GivenIAmOnTheSauceDemoLoginPage() (0.8s)
+And I enter valid 'standard_user' and 'secret_sauce'
+-> done: LoginStepDefinitions.WhenIEnterValidUsernameAndPassword("standard_user", "secret_sauce") (0.1s)
+And I click the login button
+-> done: LoginStepDefinitions.WhenIClickTheLoginButton() (0.1s)
+And I land on Inventory Page
+-> done: LoginStepDefinitions.ThenIShouldSeeTheInventoryPage("Inventory") (0.0s)
+When I select Price (high to low) from the filter dropdown
+-> done: InventoryStepDefinitions.WhenISelectNameAToZFromTheFilterDropdown("Price (high to low)") (0.1s)
+Then the items should be sorted by Price (high to low) in decending order
+-> done: InventoryStepDefinitions.ThenTheItemsShouldBeSortedByNameInAscendingOrder("Price (high to low)", "decending") (0.1s)
+
+]]></output>
+          </test-case>
+          <test-case name="_04ValidateTheFooterNavigationLinks(&quot;Twitter&quot;,&quot;https://x.com/saucelabs&quot;,null)" fullname="SwagLabAcceptanceTest.Features.VerifyingInventorypageFunctionalityFeature._04ValidateTheFooterNavigationLinks(&quot;Twitter&quot;,&quot;https://x.com/saucelabs&quot;,null)" methodname="_04ValidateTheFooterNavigationLinks(&quot;Twitter&quot;,&quot;https://x.com/saucelabs&quot;,null)" classname="VerifyingInventorypageFunctionalityFeature" result="Passed" start-time="2024-07-27T 19:45:57Z" end-time="2024-07-27T 19:46:04Z" duration="7.383977" asserts="0" seed="59871257">
+            <output><![CDATA[Given I am on the SauceDemo login page
+-> done: LoginStepDefinitions.GivenIAmOnTheSauceDemoLoginPage() (0.9s)
+And I enter valid 'standard_user' and 'secret_sauce'
+-> done: LoginStepDefinitions.WhenIEnterValidUsernameAndPassword("standard_user", "secret_sauce") (0.2s)
+And I click the login button
+-> done: LoginStepDefinitions.WhenIClickTheLoginButton() (0.1s)
+And I land on Inventory Page
+-> done: LoginStepDefinitions.ThenIShouldSeeTheInventoryPage("Inventory") (0.0s)
+Then I click on the Twitter and navigate to the https://x.com/saucelabs
+-> done: InventoryStepDefinitions.ThenIClickOnTheTwitterAndNavigateToTheHttpsX_ComSaucelabs("Twitter", "https://x.com/sau...") (3.9s)
+
+]]></output>
+          </test-case>
+          <test-case name="_04ValidateTheFooterNavigationLinks(&quot;Facebook&quot;,&quot;https://www.facebook.com/saucelabs&quot;,null)" fullname="SwagLabAcceptanceTest.Features.VerifyingInventorypageFunctionalityFeature._04ValidateTheFooterNavigationLinks(&quot;Facebook&quot;,&quot;https://www.facebook.com/saucelabs&quot;,null)" methodname="_04ValidateTheFooterNavigationLinks(&quot;Facebook&quot;,&quot;https://www.facebook.com/saucelabs&quot;,null)" classname="VerifyingInventorypageFunctionalityFeature" result="Passed" start-time="2024-07-27T 19:46:04Z" end-time="2024-07-27T 19:46:11Z" duration="6.697133" asserts="0" seed="136418645">
+            <output><![CDATA[Given I am on the SauceDemo login page
+-> done: LoginStepDefinitions.GivenIAmOnTheSauceDemoLoginPage() (0.8s)
+And I enter valid 'standard_user' and 'secret_sauce'
+-> done: LoginStepDefinitions.WhenIEnterValidUsernameAndPassword("standard_user", "secret_sauce") (0.2s)
+And I click the login button
+-> done: LoginStepDefinitions.WhenIClickTheLoginButton() (0.1s)
+And I land on Inventory Page
+-> done: LoginStepDefinitions.ThenIShouldSeeTheInventoryPage("Inventory") (0.0s)
+Then I click on the Facebook and navigate to the https://www.facebook.com/saucelabs
+-> done: InventoryStepDefinitions.ThenIClickOnTheTwitterAndNavigateToTheHttpsX_ComSaucelabs("Facebook", "https://www.faceb...") (2.9s)
+
+]]></output>
+          </test-case>
+          <test-case name="_04ValidateTheFooterNavigationLinks(&quot;LinkedIn&quot;,&quot;https://www.linkedin.com/company/sauce-labs/&quot;,null)" fullname="SwagLabAcceptanceTest.Features.VerifyingInventorypageFunctionalityFeature._04ValidateTheFooterNavigationLinks(&quot;LinkedIn&quot;,&quot;https://www.linkedin.com/company/sauce-labs/&quot;,null)" methodname="_04ValidateTheFooterNavigationLinks(&quot;LinkedIn&quot;,&quot;https://www.linkedin.com/company/sauce-labs/&quot;,null)" classname="VerifyingInventorypageFunctionalityFeature" result="Passed" start-time="2024-07-27T 19:46:11Z" end-time="2024-07-27T 19:46:16Z" duration="4.900616" asserts="0" seed="687296462">
+            <output><![CDATA[Given I am on the SauceDemo login page
+-> done: LoginStepDefinitions.GivenIAmOnTheSauceDemoLoginPage() (0.8s)
+And I enter valid 'standard_user' and 'secret_sauce'
+-> done: LoginStepDefinitions.WhenIEnterValidUsernameAndPassword("standard_user", "secret_sauce") (0.2s)
+And I click the login button
+-> done: LoginStepDefinitions.WhenIClickTheLoginButton() (0.1s)
+And I land on Inventory Page
+-> done: LoginStepDefinitions.ThenIShouldSeeTheInventoryPage("Inventory") (0.0s)
+Then I click on the LinkedIn and navigate to the https://www.linkedin.com/company/sauce-labs/
+-> done: InventoryStepDefinitions.ThenIClickOnTheTwitterAndNavigateToTheHttpsX_ComSaucelabs("LinkedIn", "https://www.linke...") (1.6s)
+
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+    <errors />
+  </test-suite>
+</test-run>
